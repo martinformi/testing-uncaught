@@ -15,5 +15,8 @@
                 <timestampPattern>yyyy-MM-dd'T'HH:mm:ss.SSS</timestampPattern>
             </encoder>
         </appender>
+        <root level="INFO">
+            <appender-ref ref="jsonConsoleAppender"/>
+        </root>
     </springProfile>
 </configuration>
